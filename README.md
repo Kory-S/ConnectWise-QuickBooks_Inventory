@@ -27,3 +27,17 @@ This will export an excel spreadsheet containing 3 books
 - This will call out items that only exist in QBO but does not exist in CW
 - It will display the "Valuation Count" next to the "Product ID".
 - It will also display to the right of the "QBO Only" count, every item in the QBO report
+
+## How to use
+
+Make sure inventory.py and inventory_gui.py are in the same folder
+
+In terminal (Preferred)
+cd to location of inventory
+C:...$ python inventory_gui.py
+This will opena new window allowing you to select the reports from CW and QBO.
+When using this through the terminal, it will open the folder to search for the reports in the current directory the application is ran from.
+
+or...
+Right click inventory_gui.py > run with... python
+This will open a new window allowing you to select the reports from CW and QBO.
